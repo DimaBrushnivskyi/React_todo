@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.scss';
+import { TodoApp } from './components/TodoApp';
 
-export const App = () => (
-  <div className="starter">
-    React starter pack
-  </div>
-);
+function App() {
+  return (
+    <TodoApp />
+  );
+}
+
+export default App;
